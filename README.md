@@ -1,6 +1,11 @@
 # SemanticGraphBuilder
 A semantic analysis tool that extracts concepts and relationships from text, visualizes their ontology as an interactive graph, and exports the results in RDF or OWL formats.
 
+## How to run
+```bash
+streamlit run interface/🏠Home.py
+```
+
 1. Extract Concepts:
 The application analyzes the provided text to extract key concepts, with the possibility to refine them. These concepts can then be used to build a semantic ontology.
 
